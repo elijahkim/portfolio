@@ -83,9 +83,10 @@ nav a {
   transition:400ms ease;
 }
 
-nav a:hover,
-nav a:focus {
-  color: yellow;
+footer a:hover,
+footer a:focus {
+  color: black;
+  transition: 350ms;
 }
 
 header {
@@ -115,6 +116,7 @@ header h1 {
   font-family: "Droid Serif",Helvetica,Arial,sans-serif;
   font-size: 3vw;
   font-style: italic;
+  text-shadow: 3px 3px 5px #000,
 }
 
 header img {
