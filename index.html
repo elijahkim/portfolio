@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,9 @@
         <h1>Hi! I'm Elijah, a web developer in NYC</h1>
       </div>
       <div class="arrows">
-        <a href="#cd-timeline"><img src="img/down-arrow.png" alt="down-arrow" /></a>
+        <a href="#cd-timeline">
+          <img src="img/down-arrow.svg" alt="down-arrow" class="down-arrow" />
+        </a>
       </div>
     </header>
 
@@ -33,9 +35,20 @@
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
           <h2>Present</h2>
-          <canvas id="myChart"></canvas>
+          <p>
+          I'm a web developer that prefers to use Ruby on Rails but strives to
+          learn other technologies. I have strong convictions but am always open
+          to change. Here are some things I've worked with!
+          </p>
+          <ul>
+            <li>Ruby – Rails, Sinatra, RSspec</li>
+            <li>Notable Gems – Devise, Cancancan, Delayed Jobs, Pundit</li>
+            <li>Javascript – React, JQuery</li>
+            <li>HTML5</li>
+            <li>CSS3 – Bootstrap, Foundation, Bourbon, SASS</li>
+            <li>SQL – Postgresql, MySQL</li>
+          </ul>
           <span class="cd-date">Now</span>
-          <a href="elijah-kim-resume.pdf" class="cd-read-more">Resume</a>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
 
@@ -44,7 +57,7 @@
           <img src="img/cd-icon-location.svg" alt="Location">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
-          <h2>Wizard Development</h2>
+          <h2><a href="http://www.wizarddevelopment.com">Wizard Development</a></h2>
           <h3>Developer - <a href="https://thewinnower.com">The Winnower</a>,
             <a href="https://www.bakecycle.com/">BakeCycle</a></h3>
           <a href="http://www.thewinnower.com/">
@@ -53,14 +66,14 @@
           <a href="http://www.bakecycle.com/">
             <img src="img/portfolio/bakecycle.jpg" alt="vinous" />
           </a>
-          <ul>
-            <li>Took full ownership of probjects</li>
-            <li>Created features from start to finish</li>
-            <li>Used multiple frameworks and languages: Ruby, PHP, Javascript,
-              Rails, Wordpress CMS, Angular, React</li>
-          </ul>
-          <a href="http://www.wizarddevelopment.com" class="cd-read-more">Wizard
-          Development</a>
+          <p>
+          As a developer at Wizard Development, I was given full custody of
+          whichever application I was working on. What this meant was having
+          full responsibility of new features including everything from the CSS,
+          to the API, and all the code planning to go with it. Having this sort
+          of freedom helped me grow as a problem solver and also cultivated
+          learning and innovation.
+          </p>
           <span class="cd-date">March 2015</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
@@ -70,18 +83,17 @@
           <img src="img/cd-icon-location.svg" alt="Location">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
-          <h2>Barefoot Coders</h2>
+          <h2><a href="http://www.barefootcoders.com">Barefoot Coders</a></h2>
           <h3>Developer - <a href="http://www.vinous.com/">Vinous Media</a></h3>
           <a href="http://www.vinous.com/">
             <img src="img/portfolio/vinous.jpg" alt="vinous" />
           </a>
-          <ul>
-            <li> Reengineered code base to increase readability, scalability, and
-              extendibility.</li>
-            <li> Increased development speed by backfilling tests.</li>
-            <li> Modified code to adhere to best practices.</li>
-          </ul>
-          <a href="#0" class="cd-read-more">Barefoot Coders</a>
+          <p>
+          During my short stay at Barefoot Coders, I experienced my first
+          production application and all the shell shock to go with it. This
+          experience showed me that deploying is nothing to be scared about and
+          pushed myself to write extendible production code.
+          </p>
           <span class="cd-date">Feb 15</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
@@ -93,37 +105,18 @@
         <div class="cd-timeline-content">
           <h2>Metis</h2>
           <h3>Ruby on Rails - 12 Week Intensive</h3>
-          <ul>
-            <li> Built various applications using Rails and 3rd party APIs.</li>
-            <li> Used Thoughtbot’s style guide and best practices including refactoring and
-              design patterns.</li>
-            <li> Created dynamic pages through Javascript, JQuery, and AJAX.</li>
-            <li> Submitted and reviewed pull requests on GitHub, providing and receiving
-              positive criticisms.</li>
-          </ul>
-          <a href="http://www.thisismetis.com/" class="cd-read-more">Metis</a>
+          <a href="http://www.thisismetis.com">
+            <img src="img/metis.png" alt="metis">
+          </a>
+          <p>
+          Attending Metis was the changing point in my career. The boot camp
+          taught Ruby on Rails and the tech to go with it by one of the most
+          famous rails consultants of our time, Thoughtbot. We were taught their
+          best practices and were given a firm foundation to continue our
+          education. Metis was both the most intense and awesome 3 months I’ve
+          experienced.
+          </p>
           <span class="cd-date">September 2014</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-location">
-          <img src="img/cd-icon-location.svg" alt="Movie">
-        </div> <!-- cd-timeline-img -->
-
-        <div class="cd-timeline-content">
-          <h2>LG Electronics</h2>
-          <h3>PSI Analyst</h3>
-          <ul>
-            <li> Analyzed current demand and sales to meet output goals.</li>
-            <li> Evaluated logistics data to provide support to reach shipment
-              targets.</li>
-            <li> Generated reports for upper management and the CFO to provide
-              information regarding sales status and demand.</li>
-            <li> Provided crucial support for LG’s G3 launch; the company’s most
-              successful model to date.</li>
-          </ul>
-          <span class="cd-date">June 2014</span>
         </div> <!-- cd-timeline-content -->
       </div> <!-- cd-timeline-block -->
 
@@ -148,15 +141,12 @@
     </section> <!-- cd-timeline -->
     <section class="contact-me">
       <ul>
+        <li><a href="resume.pdf">Resume</a></li>
         <li><a href="mailto:kimelijah90@gmail.com">Email</a></li>
         <li><a href="http://www.elijah.kim/blog">Blog</a></li>
         <li><a href="https://www.github.com/elijahkim">Github</a></li>
         <li><a href="https://twitter.com/monkeypatchr">Twitter</a></li>
       </ul>
     </section>
-
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/Chart.min.js"></script>
-    <script src="js/myChart.js"></script>
   </body>
 </html>

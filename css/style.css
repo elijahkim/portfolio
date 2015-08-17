@@ -37,6 +37,10 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+p, li {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* --------------------------------
 
 Modules - reusable parts of our design
@@ -87,6 +91,7 @@ nav a:focus {
 header {
   text-align: center;
   background-image: url(../img/header-bg.jpg);
+  background-position: center;
   height: 100vh;
 }
 
@@ -323,9 +328,14 @@ header img {
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
-.cd-timeline-content p, .cd-timeline-content li {
+.cd-timeline-content p {
   margin: 1em 0;
-  line-height: 1.2;
+  line-height: 2;
+}
+.cd-timeline-content li {
+  margin: 1em 0;
+  margin-left: 10px;
+  line-height: .5;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
@@ -363,14 +373,15 @@ header img {
     line-height: 1.2;
   }
   .cd-timeline-content li {
+    margin-left: 10px;
     font-size: 16px;
     font-size: .85rem;
-    line-height: 1.2;
+    line-height: .5;
   }
   .cd-timeline-content p {
     font-size: 16px;
     font-size: .85rem;
-    line-height: 1;
+    line-height: 2;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
